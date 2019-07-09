@@ -1,12 +1,12 @@
 <template>
-  <div class="nav">
-    nav
+  <div class="aaa">
+    aaa
   </div>
 </template>
 
 <script type="text/ecmascript-6">
 export default {
-  name: 'nav',
+  name: 'aaa',
   components: {},
   props: {},
   data() {

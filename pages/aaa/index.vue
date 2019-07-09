@@ -1,12 +1,13 @@
 <template>
-  <div class="user">
-    user
+  <div class="index">
+    aaa
   </div>
 </template>
 
 <script type="text/ecmascript-6">
 export default {
-  name: 'user',
+  layout: 'aaa',
+  name: 'index',
   components: {},
   props: {},
   data() {
