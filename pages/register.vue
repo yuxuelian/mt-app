@@ -1,12 +1,13 @@
 <template>
-  <div class="aaa">
-    aaa
+  <div class="register">
+    register
   </div>
 </template>
 
 <script type="text/ecmascript-6">
 export default {
-  name: 'aaa',
+  layout:'register',
+  name: 'register',
   components: {},
   props: {},
   data() {

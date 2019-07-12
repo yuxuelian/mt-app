@@ -27,7 +27,7 @@ a:hover {
 }
 
 
-ul {
+ul.row {
     list-style: none;
     display: flex;
     flex-direction: row;

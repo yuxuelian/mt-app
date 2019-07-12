@@ -1,13 +1,10 @@
 <template>
-  <div class="index">
-    aaa
-  </div>
+  <nuxt/>
 </template>
 
 <script type="text/ecmascript-6">
 export default {
-  layout: 'aaa',
-  name: 'index',
+  name: 'register',
   components: {},
   props: {},
   data() {

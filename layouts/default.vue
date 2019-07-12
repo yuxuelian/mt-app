@@ -15,7 +15,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-import MHeader from "@/components/public/header/"
+import MHeader from "@/components/home/header/"
 export default {
   name: 'default',
   components: {MHeader},

@@ -1,7 +1,7 @@
 <template>
   <div class="nav-container">
     <div class="nav-content">
-      <ul class="nav-left-container">
+      <ul class="row nav-left-container">
         <li class="city-text">
           <i class="el-icon-location  city-text"></i>
           <span>成都</span>
@@ -26,7 +26,7 @@
           <nuxt-link to="/register">注册</nuxt-link>
         </li>
       </ul>
-      <ul class="nav-right-container">
+      <ul class="row nav-right-container">
         <li class="menu-item sub-menu-hover">
           <nuxt-link to="/my-mt">我的美团</nuxt-link>
           <ul class="sub-menu">
@@ -77,7 +77,7 @@
           <nuxt-link to="/mt-rule" class="nth-a">美团规则</nuxt-link>
           <ul class="sub-menu">
             <li class="sub-menu-item">
-              <nuxt-link to="/my-order">规划中心</nuxt-link>
+              <nuxt-link to="/my-order">规则中心</nuxt-link>
             </li>
             <li class="sub-menu-item">
               <nuxt-link to="/my-like">规则目录</nuxt-link>

@@ -37,12 +37,12 @@
           <nuxt-link class="tag" to="/hot-4">成都欢乐谷</nuxt-link>
         </div>
         <div class="menu">
-          <nuxt-link class="menu-item color1" to="/takeout">美团外卖</nuxt-link>
-          <nuxt-link class="menu-item color2" to="/movie">猫眼电影</nuxt-link>
-          <nuxt-link class="menu-item color2" to="/hotel">美团酒店</nuxt-link>
-          <nuxt-link class="menu-item color1" to="/apartment">民宿／公寓</nuxt-link>
-          <nuxt-link class="menu-item color3" to="/business-in">商家入驻</nuxt-link>
-          <nuxt-link class="menu-item color2" to="/mt-pub-benefit">美团公益</nuxt-link>
+          <a class="menu-item color1" href="https://waimai.meituan.com/" target="_blank">美团外卖</a>
+          <a class="menu-item color2" href="https://maoyan.com/?utm_source=meituanweb" target="_blank">猫眼电影</a>
+          <a class="menu-item color2" href="https://hotel.meituan.com/chengdu/" target="_blank">美团酒店</a>
+          <a class="menu-item color1" href="https://phoenix.meituan.com/" target="_blank">民宿／公寓</a>
+          <a class="menu-item color3" href="https://bizvisualmeishi.meituan.com/bizsettle/settle/merchantsSettle?utm_source=mtxz" target="_blank">商家入驻</a>
+          <a class="menu-item color2" href="https://gongyi.meituan.com/" target="_blank">美团公益</a>
         </div>
       </el-col>
       <el-col :span="7">
@@ -88,17 +88,18 @@ export default {
 
 .input >>> .el-input__inner
   padding 0 10px
-  border-right none
   border-top-right-radius 0
   border-bottom-right-radius 0
   font-size 16px
+  border 1px solid #13D1BE
+  border-right none
 
   &:hover
-    border 1px solid #00C48D
+    border 1px solid #13D1BE
     border-right none
 
   &:focus
-    border 1px solid #00C48D
+    border 1px solid #13D1BE
     border-right none
 
 .search-root
@@ -134,7 +135,7 @@ export default {
 
         .btn
           width 88px
-          background-color #00C48D
+          background-color #13D1BE
           border none
           border-top-left-radius 0
           border-bottom-left-radius 0
