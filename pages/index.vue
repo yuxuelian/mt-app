@@ -41,6 +41,9 @@ export default {
   created() {
   },
   mounted() {
+    this.$axios.get('/users/json').then((res) => {
+      console.log(res.data)
+    })
   },
 }
 </script>

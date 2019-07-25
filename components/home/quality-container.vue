@@ -100,10 +100,13 @@ export default {
     width 100%
     height 44px
     background-color #BFA77A
-    justify-content left
     color white
     border-top-left-radius 8px
     border-top-right-radius 8px
+    display flex
+    flex-direction row
+    align-items center
+    justify-content left
 
     .nvg-item
       font-size 14px

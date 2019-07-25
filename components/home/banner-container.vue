@@ -56,7 +56,7 @@
           <p class="app-name">美团APP手机版</p>
           <p class="sl">
             <span style="color: red;margin-right: 5px">1元起</span>
-            <span class="gary">吃喝玩乐</span>
+            <span class="gary" @click="testClick">吃喝玩乐 todos = {{todos}}</span>
           </p>
         </div>
       </div>
@@ -65,6 +65,7 @@
 </template>
 
 <script type="text/ecmascript-6">
+import {mapActions} from 'vuex'
 export default {
   name: 'banner-container',
   components: {},
@@ -84,8 +85,19 @@ export default {
     }
   },
   watch: {},
-  computed: {},
+  computed: {
+    todos() {
+      return this.$store.state.todos.list
+    }
+  },
   methods: {
+    ...mapActions([
+      'incrementCommit'
+    ]),
+    testClick() {
+      // 提交修改State的值
+      this.incrementCommit()
+    },
     itemMouseEnter(index) {
       // 清除定时器
       clearTimeout(this._clearTimer)
