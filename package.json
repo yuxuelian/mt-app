@@ -28,7 +28,7 @@
     "koa-static": "^5.0.0",
     "mongoose": "^5.6.3",
     "nodemailer": "^6.3.0",
-    "nuxt": "^2.8.1"
+    "nuxt": "^2.15.8"
   },
   "devDependencies": {
     "nodemon": "^1.18.9",
